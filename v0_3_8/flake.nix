@@ -11,7 +11,6 @@
   inputs.src-nimLUA-v0_3_8.ref   = "refs/tags/v0.3.8";
   inputs.src-nimLUA-v0_3_8.owner = "jangko";
   inputs.src-nimLUA-v0_3_8.repo  = "nimLUA";
-  inputs.src-nimLUA-v0_3_8.dir   = "";
   inputs.src-nimLUA-v0_3_8.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
